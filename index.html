@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=s, initial-scale=1.0" />
+    <title>Bulb</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: aquamarine;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 60px;
+        font-style: italic;
+        color: darkblue;
+      }
+      .bulb {
+        margin-top: 20px;
+        text-align: center;
+      }
+      .buttons {
+        margin-top: 50px;
+        text-align: center;
+      }
+      .BulbOn {
+        padding: 10px;
+        background-color: purple;
+        color: whitesmoke;
+        border: solid purple;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all ease 0.8s;
+        font-weight: 700;
+      }
+      .BulbOn:hover {
+        background-color: brown;
+        border: solid brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BULB FUNCNALITY</h1>
+    <div class="bulb">
+      <img src="./images/bulb off.png" id="imgHandler" width="500px" alt="" />
+    </div>
+    <div class="buttons">
+      <button class="BulbOn" onclick="bulbFunctionality(this)" >
+        Bulb On
+      </button>
+
+    </div>
+ <script src="app.js"></script>
+</html>
